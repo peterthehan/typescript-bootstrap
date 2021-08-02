@@ -6,7 +6,7 @@ A TypeScript bootstrap template with minimal configuration.
 
 ## Getting started
 
-Run the following commands sequentially to bootstrap a TypeScript project in your working directory:
+Run the following commands to bootstrap a TypeScript project in your working directory:
 
 ```
 npx degit peterthehan/typescript-bootstrap my-typescript-project
@@ -30,4 +30,21 @@ npm test
 npm run build
 ```
 
-View [package.json](./package.json) for more details.
+View [package.json](./package.json) for more information.
+
+## Reasoning
+
+The following resources detail how the the configuration in this `typescript-bootstrap` template was determined.
+
+1. [.eslintrc.json](./.eslintrc.json)
+
+   - https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/README.md#configuration
+   - https://github.com/prettier/eslint-plugin-prettier#recommended-configuration
+
+2. [jest.config.json](./jest.config.json)
+
+   - https://kulshekhar.github.io/ts-jest/docs/getting-started/installation#jest-config-file
+
+3. [tsconfig.json](./tsconfig.json)
+
+   - https://www.bayanbennett.com/posts/stop-messing-with-tsconfig
