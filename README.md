@@ -34,7 +34,7 @@ View [package.json](./package.json) for more information.
 
 ## Reasoning
 
-The following resources detail how the the configuration in this `typescript-bootstrap` template was determined.
+The following resources detail how the the configurations in this `typescript-bootstrap` template was determined.
 
 1. [.eslintrc.json](./.eslintrc.json)
 
