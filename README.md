@@ -6,23 +6,19 @@ A TypeScript bootstrap template with minimal configuration.
 
 ## Getting started
 
-1. Run the following command to bootstrap your project in your current working directory:
+Run the following commands sequentially to bootstrap a TypeScript project in your working directory:
 
-   ```
-   npx degit peterthehan/typescript-bootstrap my-typescript-project
-   ```
+```
+npx degit peterthehan/typescript-bootstrap my-typescript-project
+```
 
-2. Run the following command to navigate into your newly created project:
+```
+cd my-typescript-project
+```
 
-   ```
-   cd my-typescript-project
-   ```
-
-3. Run the following command to install dependencies:
-
-   ```
-   npm i
-   ```
+```
+npm i
+```
 
 You're ready to create your own TypeScript project! 🎉
 
