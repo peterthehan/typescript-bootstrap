@@ -6,35 +6,37 @@ A TypeScript bootstrap template with minimal configuration.
 
 ## Getting started
 
-Run the following commands to bootstrap a TypeScript project in your working directory:
+1. Run the following commands to bootstrap a TypeScript project in your working directory:
 
-```
-npx degit peterthehan/typescript-bootstrap my-typescript-project
-```
+   > Replace `my-typescript-project` in the commands below with your own preferred project name!
 
-```
-cd my-typescript-project
-```
+   ```
+   npx degit peterthehan/typescript-bootstrap my-typescript-project
+   ```
 
-```
-npm i
-```
+   ```
+   cd my-typescript-project
+   ```
+
+   ```
+   npm i
+   ```
+
+2. You can run the following commands to verify your setup:
+
+   ```
+   npm run lint
+   npm test
+   npm run build
+   ```
+
+   View [package.json](./package.json) for more information.
 
 You're ready to create your own TypeScript project! 🎉
 
-You can run the following commands to verify your setup:
-
-```
-npm run lint
-npm test
-npm run build
-```
-
-View [package.json](./package.json) for more information.
-
 ## Reasoning
 
-The following resources detail how the configurations in this `typescript-bootstrap` template were determined.
+The following resources detail how the configurations in this `typescript-bootstrap` template were determined:
 
 1. [.eslintrc.json](./.eslintrc.json)
 
