@@ -26,8 +26,8 @@ A TypeScript bootstrap template with minimal configuration.
 
    ```
    npm run lint
-   npm test
    npm run build
+   npm test
    ```
 
    View [package.json](./package.json) for more information.
