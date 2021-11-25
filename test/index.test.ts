@@ -9,6 +9,10 @@ describe("add function", () => {
     expect(add(1, 2)).toBe(3);
   });
 
+  it("should return 3 given 2, 1", () => {
+    expect(add(2, 1)).toBe(3);
+  });
+
   it("should return 36 given -5, 2, 39", () => {
     expect(add(-5, 2, 39)).toBe(36);
   });
