@@ -40,7 +40,7 @@ The following resources detail how the configurations in this `typescript-bootst
 
 1. [.eslintrc.json](./.eslintrc.json)
 
-   - https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/README.md#configuration
+   - https://github.com/typescript-eslint/typescript-eslint/blob/main/docs/linting/README.md#configuration
    - https://github.com/prettier/eslint-plugin-prettier#recommended-configuration
 
 2. [jest.config.json](./jest.config.json)
