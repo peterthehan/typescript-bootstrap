@@ -38,15 +38,31 @@ You're ready to create your own TypeScript project! 🎉
 
 The following resources detail how the configurations in this `typescript-bootstrap` template were determined:
 
-1. [.eslintrc.json](./.eslintrc.json)
+### Configs
 
-   - https://github.com/typescript-eslint/typescript-eslint/blob/main/docs/linting/README.md#configuration
-   - https://github.com/prettier/eslint-plugin-prettier#recommended-configuration
+- [.eslintrc.json](./.eslintrc.json)
 
-2. [jest.config.json](./jest.config.json)
+  - https://typescript-eslint.io/docs/#step-2-configuration
+  - https://github.com/prettier/eslint-plugin-prettier#recommended-configuration
 
-   - https://kulshekhar.github.io/ts-jest/docs/getting-started/installation#jest-config-file
+- [jest.config.json](./jest.config.json)
 
-3. [tsconfig.json](./tsconfig.json)
+  - https://kulshekhar.github.io/ts-jest/docs/getting-started/installation#jest-config-file
 
-   - https://www.bayanbennett.com/posts/stop-messing-with-tsconfig
+- [tsconfig.json](./tsconfig.json)
+
+  - https://www.bayanbennett.com/posts/stop-messing-with-tsconfig
+
+### Actions
+
+- [.github/dependabot.yml](./.github/dependabot.yml)
+
+  - https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+
+- [.github/workflows/codeql-analysis.yml](./.github/workflows/codeql-analysis.yml)
+
+  - https://github.com/github/codeql-action
+
+- [.github/workflows/node.js.yml](./.github/workflows/node.js.yml)
+
+  - https://github.com/actions/starter-workflows/blob/main/ci/node.js.yml
