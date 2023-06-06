@@ -45,6 +45,7 @@ The following resources detail how the configurations in this `typescript-bootst
   - https://typescript-eslint.io/docs/#step-2-configuration
   - https://github.com/prettier/eslint-plugin-prettier#recommended-configuration
   - https://github.com/lydell/eslint-plugin-simple-import-sort
+  - https://github.com/mthadley/eslint-plugin-sort-destructure-keys
   - https://github.com/leo-buneev/eslint-plugin-sort-keys-fix
   - https://github.com/infctr/eslint-plugin-typescript-sort-keys
 
