@@ -15,7 +15,7 @@ A TypeScript bootstrap template with minimal configuration.
    ```
 
    ```
-   cd my-typescript-project
+   cd my-typescript-project/
    ```
 
    ```
@@ -25,9 +25,7 @@ A TypeScript bootstrap template with minimal configuration.
 2. You can run the following commands to verify your setup:
 
    ```
-   npm run lint
-   npm run build
-   npm test
+   npm run lint && npm run build && npm test
    ```
 
    View [package.json](./package.json) for more information.
