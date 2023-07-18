@@ -23,7 +23,7 @@ describe("add function", () => {
 
   it("should throw an error given no argument", () => {
     expect(() => add()).toThrow(
-      new Error("At least one number argument must be provided!")
+      new Error("At least one number argument must be provided!"),
     );
   });
 });
